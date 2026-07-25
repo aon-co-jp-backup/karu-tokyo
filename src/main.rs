@@ -157,7 +157,8 @@ fn top_impl() -> Html<String> {
 <a href="https://aruaru.tokyo/">aruaru.tokyo</a> ・
 <a href="https://karu.tokyo/">karu.tokyo</a> ・
 <a href="https://icpo.tokyo/">icpo.tokyo</a> ・
-<a href="https://fbi.tokyo/">fbi.tokyo</a></p>
+<a href="https://fbi.tokyo/">fbi.tokyo</a> ・
+<a href="https://runo.tokyo/">runo.tokyo</a></p>
 <p>軽井沢・あきる野市・東京を含む日本の観光とリモートワークをメインに、
 郊外でのんびりオーディオや映画を楽しみながらリモートワークする暮らし、
 IT・AI・AUDIO・貿易産業をご紹介するサイトです。
