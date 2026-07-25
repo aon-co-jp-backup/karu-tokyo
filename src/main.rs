@@ -150,6 +150,14 @@ fn top_impl() -> Html<String> {
     let cancer_news = cancer_news_section();
     let body = format!(
         r#"<h1>karu.tokyo</h1>
+<p class="related-sites" style="font-size:0.85rem;">🔗 関連サイト / Related sites:
+<a href="https://aon.tokyo/">aon.tokyo</a> ・
+<a href="https://aon.tokyo/cancer">aon.tokyo/cancer</a> ・
+<a href="https://aon.co.jp/">aon.co.jp</a> ・
+<a href="https://aruaru.tokyo/">aruaru.tokyo</a> ・
+<a href="https://karu.tokyo/">karu.tokyo</a> ・
+<a href="https://icpo.tokyo/">icpo.tokyo</a> ・
+<a href="https://fbi.tokyo/">fbi.tokyo</a></p>
 <p>軽井沢・あきる野市・東京を含む日本の観光とリモートワークをメインに、
 郊外でのんびりオーディオや映画を楽しみながらリモートワークする暮らし、
 IT・AI・AUDIO・貿易産業をご紹介するサイトです。
