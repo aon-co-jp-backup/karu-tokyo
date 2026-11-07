@@ -179,3 +179,7 @@ locationを先に用意してからcertbotを実行すること。
 - **WASM по-прежнему остаётся технологией для интерфейса.** Изменилось лишь то, что вызываемый им API теперь построен на Connect.
 - Интерфейсы, форма которых задана внешним стандартом (ACME, обратные вызовы OAuth, вебхуки сторонних сервисов, проверки работоспособности, статические файлы, OTLP), остаются обычным HTTP.
 - **Если есть сомнения — выбирайте Connect.**
+
+### 脆弱性対応 / Security dependency update (2026-11-08)
+- 日本語: 依存にあるのは h2 のみ(rustls系は無し)。`cargo update -p h2` で 0.4.15→0.4.20(RUSTSEC-2026-0258)、Cargo.lockのみ。cargo build/test 成功。
+- English: Only h2 is a dependency here (no rustls). Cargo.lock-only update 0.4.15→0.4.20; build and test pass.
