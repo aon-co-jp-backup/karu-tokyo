@@ -183,3 +183,7 @@ locationを先に用意してからcertbotを実行すること。
 ### 脆弱性対応 / Security dependency update (2026-11-08)
 - 日本語: 依存にあるのは h2 のみ(rustls系は無し)。`cargo update -p h2` で 0.4.15→0.4.20(RUSTSEC-2026-0258)、Cargo.lockのみ。cargo build/test 成功。
 - English: Only h2 is a dependency here (no rustls). Cargo.lock-only update 0.4.15→0.4.20; build and test pass.
+
+### tokio更新 / tokio update (2026-11-08)
+- 日本語: `cargo update -p tokio` で 1.54.1 へ(RUSTSEC-2026-0386)。Cargo.lockのみ、`cargo test`成功、`cargo audit`の警告は0。
+- English: Cargo.lock-only bump of tokio to 1.54.1 (RUSTSEC-2026-0386); tests pass and `cargo audit` reports no warnings.
